@@ -52,22 +52,6 @@ npm run dev
 
 The app will be available at the provided local development server URL (e.g., http://localhost:3000).
 
-### Project Structure
-
-radio-streaming-app/
-├── public/
-├── src/
-│   ├── assets/          # Static assets (images, etc.)
-│   ├── components/      # Reusable UI components
-│   ├── App.tsx          # Main app component
-│   ├── index.css        # Global CSS (includes Tailwind imports)
-│   ├── main.tsx         # Entry point for the app
-│   ├── radio_list.json  # JSON file containing radio station data
-│   └── ...
-├── tailwind.config.js   # Tailwind configuration file
-├── package.json         # Project dependencies and scripts
-└── ...
-
 ### JSON Data File Structure
 
 The radio station data is stored in src/radio_list.json with the following structure:
