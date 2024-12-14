@@ -1,12 +1,8 @@
 {
-    "builds": [
+    "routes": [
       {
-        "src": "package.json",
-        "use": "@vercel/node"
+        "src": "/(.*)",
+        "dest": "/index.html"
       }
-    ],
-    "env": {
-      "NODE_VERSION": "22.9.0"
-    }
+    ]
   }
-  
