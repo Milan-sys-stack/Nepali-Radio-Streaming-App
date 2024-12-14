@@ -4,9 +4,9 @@ import stations from './radio_list.json';
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-indigo-900 to-blue-600 text-white p-6">
-      <h1 className="text-5xl font-extrabold text-center mb-12 drop-shadow-lg text-red-500">
-        Radio Streaming App
+    <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-500 text-white p-6">
+      <h1 className="text-5xl font-extrabold text-center mb-12 drop-shadow-lg text-rose-800">
+        Radio Pulse
       </h1>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
@@ -20,7 +20,7 @@ const App: React.FC = () => {
               <i className="fas fa-headphones-alt text-2xl"></i>
             </div>
             
-            <h2 className="text-2xl font-semibold mb-2 text-indigo-600">{station.name}</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-rose-800">{station.name}</h2>
             
             <p className="text-gray-700 mb-1">
               <span className="font-semibold">Frequency:</span> {station.frequency ?? 'N/A'} MHz
